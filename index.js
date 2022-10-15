@@ -8,12 +8,12 @@ const texts = {
 
 
 // click on the the various headers to reveal its content
-let textSection = document.getElementById("text-section").innerHTML
+let textSection = document.getElementById("text-section")
 const vision = document.getElementById("vis")
 const goals = document.getElementById("goals")
 const history = document.getElementById("his")
 
 vision.addEventListener("click", function(){    
-    textSection = texts.past
-    console.log(textSection)
+    textSection.innerHTML = texts.past
+    console.log(textSection.innerHTML)
 })
