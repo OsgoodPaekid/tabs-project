@@ -17,3 +17,13 @@ vision.addEventListener("click", function(){
     textSection.innerHTML = texts.past
     console.log(textSection.innerHTML)
 })
+
+goals.addEventListener("click", function(){    
+    textSection.innerHTML = texts.score
+    console.log(textSection.innerHTML)
+})
+
+history.addEventListener("click", function(){    
+    textSection.innerHTML = texts.aim
+    console.log(textSection.innerHTML)
+})
