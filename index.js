@@ -34,4 +34,4 @@ function toggleThis(a, b){
 }
 toggleThis(vision, texts.past)
 toggleThis(goals, texts.score)
-toggleThis(histoy, texts.aim)
+toggleThis(history, texts.aim)
